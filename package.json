@@ -1,0 +1,25 @@
+{
+  "name": "chroma",
+  "version": "0.0.0",
+  "description": "Chroma receiver for chromecast",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node scripts/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rafkhan/chroma-cast.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafkhan/chroma-cast/issues"
+  },
+  "homepage": "https://github.com/rafkhan/chroma-cast",
+  "dependencies": {
+    "mime": "^1.2.11",
+    "async": "^0.9.0",
+    "glob-expand": "0.0.2",
+    "aws-sdk": "^2.0.0-rc.19"
+  }
+}
